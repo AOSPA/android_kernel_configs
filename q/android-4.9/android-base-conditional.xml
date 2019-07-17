@@ -1,4 +1,4 @@
-<kernel minlts="4.9.0" />
+<kernel minlts="4.9.165" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->
@@ -53,10 +53,6 @@
 	</config>
 	<config>
 		<key>CONFIG_SWP_EMULATION</key>
-		<value type="bool">y</value>
-	</config>
-	<config>
-		<key>CONFIG_UNMAP_KERNEL_AT_EL0</key>
 		<value type="bool">y</value>
 	</config>
 </group>
