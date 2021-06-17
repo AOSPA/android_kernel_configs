@@ -16,6 +16,24 @@
       "message": "I might have misunderstood what you were asking on gerrit, but you should probably include SLMK \u003d false in the MEMCG \u003d true and PSI \u003d true cases.",
       "revId": "e7c417457696b923945063e42cb8a567dd372596",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61cbeb90_ad6e7e41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-06-17T19:07:08Z",
+      "side": 1,
+      "message": "that might be more correct, but I guess this is fine because the SLMK Kconfig already disables PSI and MEMCG anyway.",
+      "parentUuid": "c5319298_85696f7d",
+      "revId": "e7c417457696b923945063e42cb8a567dd372596",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
