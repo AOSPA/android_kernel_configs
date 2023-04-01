@@ -1,4 +1,4 @@
-<kernel minlts="5.10.0" />
+<kernel minlts="6.1.0" />
 
 <!-- KEEP ALPHABETICALLY SORTED -->
 <!-- ARM base requirements -->
@@ -57,6 +57,10 @@
 	</config>
 	<config>
 		<key>CONFIG_CP15_BARRIER_EMULATION</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_RANDOMIZE_BASE</key>
 		<value type="bool">y</value>
 	</config>
 	<config>
@@ -123,6 +127,10 @@
 	</config>
 	<config>
 		<key>CONFIG_HAVE_MOVE_PUD</key>
+		<value type="bool">y</value>
+	</config>
+	<config>
+		<key>CONFIG_RANDOMIZE_BASE</key>
 		<value type="bool">y</value>
 	</config>
 	<config>
